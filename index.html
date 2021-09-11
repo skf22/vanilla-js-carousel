@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="main-title">World Cities by Night</h1>
+    <div class="main-title-underline"></div>
+    <div class="carousel">
+      <div class="carousel-item carousel-item-visible">
+        <h4 class="city-name">Hong Kong</h4>
+        <img src="images/hong-kong.jpg" alt="hong kong" />
+      </div>
+      <div class="carousel-item">
+        <h4 class="city-name">Paris</h4>
+        <img src="images/paris.jpg" alt="paris" />
+      </div>
+      <div class="carousel-item">
+        <h4 class="city-name">New York</h4>
+        <img src="images/new-york.jpg" alt="new york" />
+      </div>
+      <div class="carousel-item">
+        <h4 class="city-name">Milan</h4>
+        <img src="images/milan.jpg" alt="milan" />
+      </div>
+      <div class="carousel-item">
+        <h4 class="city-name">Los Angeles</h4>
+        <img src="images/los angeles.jpg" alt="los angeles" />
+      </div>
+      <div class="carousel-item">
+        <h4 class="city-name">Tokyo</h4>
+        <img src="images/tokyo.jpg" alt="tokyo" />
+      </div>
+      <div class="carousel-actions">
+        <button id="carousel-button-prev" aria-label="Next Slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button id="carousel-button-next" aria-label="Next Slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
